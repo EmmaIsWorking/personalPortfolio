@@ -4,7 +4,7 @@ export const variables={
   //* Colors
   lightGray:'#F2F2F2',
   black:'#282828',
-  purple:'#8845E6',
+  purple:'#673ab7',
   purpleBlue: '#4D58FF',
   yellow: '#ffc107',
   red:'#F26478',
@@ -18,5 +18,9 @@ export const variables={
   subtitle: '4.063rem',
   subtitleTablet: '2.542rem',
   subtitleMobil: '1.909rem',
+
+  //*Spacing
+  spacingSectionDesktop: '150px',
+  spacingSectionMobil: '75px',
 
 }

@@ -1,15 +1,13 @@
 import styled from 'styled-components';
-import { flex } from '../../assets/styles/mixins'
+import { flex, mixinFlexColumnMobil } from '../../assets/styles/mixins';
 
 //* StylesMain
 export const StylesMain = styled.main`
   ${flex};
   max-width:100%;
+  margin-bottom: ${({ theme }) => theme.spacingSectionDesktop};
 
-  @media(max-width:425px){
-    flex-direction:column;
-    justify-content:center;
-    }
+  ${mixinFlexColumnMobil};
 `;
 
 //* Slide

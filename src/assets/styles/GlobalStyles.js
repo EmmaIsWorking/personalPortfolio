@@ -31,6 +31,9 @@ body{
   }
 }
 
+section{
+  margin-bottom: ${({ theme }) => theme.spacingSectionDesktop};
+}
 h1,h2,h3,h4,h5,h6,p,div,a, small{
   color: ${({ theme }) => theme.black};
 }
@@ -41,6 +44,30 @@ h1,h2,h3,h4,h5,h6{
 
 p,div,a, small{
   font-family:'Karla', sans-serif;
+}
+
+h2{
+  border-bottom: 1.5px dashed ${({ theme }) => theme.purpleBlue};
+  margin-bottom: 28px;
+  padding-bottom: 1rem;
+  width:250px;
+  color: ${({ theme }) => theme.purpleBlue};
+}
+
+p {
+  line-height: 150%;
+  font-size: 1.125px;
+
+  @media(max-width:768px){
+    font-size:.625rem
+  }
+  @media(max-width:425px){
+    font-size:.829rem
+  }
+}
+
+b{
+  background: ${({ theme }) => theme.yellow};
 }
 
 a{
