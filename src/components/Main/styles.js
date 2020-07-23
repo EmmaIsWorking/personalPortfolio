@@ -4,9 +4,10 @@ import { flex, mixinFlexColumnMobil } from '../../assets/styles/mixins';
 //* StylesMain
 export const StylesMain = styled.main`
   ${flex};
-  max-width:100%;
+  /* max-width:100%; */
   margin-bottom: ${({ theme }) => theme.spacingSectionDesktop};
-
+  max-width:1160px;
+  margin: 0 auto;
   ${mixinFlexColumnMobil};
 `;
 

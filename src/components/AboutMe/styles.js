@@ -9,6 +9,8 @@ import {
 //* StylesAbout
 export const StylesAbout = styled.section`
   ${flex}
+  max-width:1160px;
+  margin: 0 auto;
   ${mixinFlexColumnMobil}
 `;
 

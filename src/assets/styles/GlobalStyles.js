@@ -14,12 +14,12 @@ html{
 
 body{
   background: ${({ theme }) => theme.lightGray};
-  margin:auto 15px;
+  /* margin:auto 15px; */
   width:100%;
-  max-width:1160px;
+  /* max-width:1160px; */
   font-size:1.125rem;
   margin: 0 auto;
-  padding:1rem;
+  /* padding:1rem; */
 
   @media(max-width:425px){
     margin:auto 5px;
@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6{
   font-family:'Poppins', sans-serif;
 }
 
-p,div,a, small{
+p,div,a,small{
   font-family:'Karla', sans-serif;
 }
 

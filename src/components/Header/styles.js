@@ -4,6 +4,7 @@ import { flex, flexBetween } from '../../assets/styles/mixins';
 export const StylesHeader = styled.div`
   ${flexBetween}
   margin: .75rem auto;
+  max-width:1160px;
 
   button{
     display:none;
