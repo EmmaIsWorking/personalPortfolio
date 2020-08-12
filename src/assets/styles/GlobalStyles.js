@@ -29,9 +29,6 @@ body{
   }
 }
 
-section{
-  margin-bottom: ${({ theme }) => theme.spacingSectionDesktop};
-}
 h1,h2,h3,h4,h5,h6,p,div,a, small{
   color: ${({ theme }) => theme.black};
 }

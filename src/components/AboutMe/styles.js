@@ -12,6 +12,8 @@ export const StylesAbout = styled.section`
 	max-width:1160px;
 	margin: 0 auto;
 	${mixinFlexColumnMobil}
+	margin-bottom: ${({ theme }) => theme.spacingSectionDesktop};
+	margin-top: ${({ theme }) => theme.spacingSectionDesktop};
 `;
 
 //* Description

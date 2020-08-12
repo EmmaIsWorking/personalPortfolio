@@ -4,11 +4,13 @@ import { flex, mixinFlexColumnMobil } from '../../assets/styles/mixins';
 //* StylesMain
 export const StylesMain = styled.main`
 	${flex};
-	/* max-width:100%; */
 	margin-bottom: ${({ theme }) => theme.spacingSectionDesktop};
 	width: 100%;
 	max-width: 1160px;
 	margin: 0 auto;
+	margin-top: calc(${({ theme }) => theme.spacingSectionDesktop} / 2);
+	margin-bottom: ${({ theme }) => theme.spacingSectionDesktop};
+
 	${mixinFlexColumnMobil};
 
 	@media (max-width: 425px) {
@@ -114,7 +116,8 @@ export const SocialMedia = styled.div`
 		}
 
 		svg {
-			margin: 4px;
+			font-size: 1.5rem;
+			margin: 8px;
 		}
 	}
 `;
