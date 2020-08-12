@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyles = createGlobalStyle` 
+const GlobalStyles = createGlobalStyle`
 *{
   box-sizing:border-box;
   margin:0;
@@ -18,16 +18,14 @@ body{
   width:100%;
   /* max-width:1160px; */
   font-size:1.125rem;
-  margin: 0 auto;
+  /* margin: 10px; */
   /* padding:1rem; */
 
   @media(max-width:425px){
-    margin:auto 5px;
-    font-size:.0.829rem;
+    font-size:0.829rem;
   }
   @media(max-width:768px){
-    margin:auto 10px;
-    font-size:.0.875rem;
+    font-size:0.875rem;
   }
 }
 

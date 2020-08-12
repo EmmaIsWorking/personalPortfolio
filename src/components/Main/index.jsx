@@ -1,24 +1,24 @@
-import React from 'react'
-import {StylesMain, Slide, Description, SocialMedia} from './styles'
+import React from 'react';
+import { StylesMain, Slide, Description, SocialMedia } from './styles';
 
 import {
 	FaFacebookSquare,
 	FaTwitter,
 	FaLinkedin,
-  FaGithub,
-  FaGitlab,
+	FaGithub,
+	FaGitlab,
 	FaBehanceSquare,
 } from 'react-icons/fa';
 
-import illustration from '../../assets/images/illustration1.svg'
+import illustration from '../../assets/images/illustration1.svg';
 
 const Main = () => {
-  return (
+	return (
 		<StylesMain>
 			<Slide>
 				<img src={illustration} alt='' />
 			</Slide>
-			<Description>
+			<Description aria-label='description'>
 				<h1>
 					Hello World
 					<br />
@@ -85,6 +85,6 @@ const Main = () => {
 			</Description>
 		</StylesMain>
 	);
-}
+};
 
-export default Main
+export default Main;
